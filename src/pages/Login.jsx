@@ -28,7 +28,7 @@ function Login() {
       }}
     >
       {/* Background Blur Effect */}
-      <div className="absolute inset-0 backdrop-blur-sm bg-black/50"></div>
+      {/* <div className="absolute inset-0 backdrop-blur-sm bg-black/50"></div> */}
 
       <div className=' min-w-[512px] z-10 max-w-5xl mx-auto border shadow-md bg-stone-200/85 p-10 rounded-lg'>
         <h2 className='text-center text-3xl font-semibold my-3'>Login to your Account</h2>

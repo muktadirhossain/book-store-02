@@ -23,13 +23,13 @@ const Register = () => {
   }
   return (
     <div className='min-h-screen justify-center flex flex-col'
-    style={{
-            backgroundImage: `url(${bg})`
-          }}
+      style={{
+        backgroundImage: `url(${bg})`
+      }}
     >
 
-            {/* Background Blur Effect */}
-       <div className="absolute inset-0 backdrop-blur-sm bg-black/50"></div>
+      {/* Background Blur Effect */}
+      {/* <div className="absolute inset-0 backdrop-blur-sm bg-black/50"></div> */}
       <div className='mx-auto z-10 max-w-2xl min-w-[500px] bg-stone-200 border-black border shadow-md p-10 rounded-md'>
         <h2 className='text-center text-3xl font-semibold my-3'>Create An Account</h2>
         <form onSubmit={onSubmit} className='grid grid-cols-1 w-full gap-2'>
